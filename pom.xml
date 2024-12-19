@@ -19,10 +19,10 @@
     <finalName>maven-web-app</finalName>
     <plugins>
       <plugin>
-	      <groupId>org.codehaus.mojo</groupId>
-	      <artifactId>sonar-maven-plugin</artifactId>
-	      <version>3.9.0.2155</version>
-      </plugin>
+    		<groupId>org.sonarsource.scanner.maven</groupId>
+    		<artifactId>sonar-maven-plugin</artifactId>
+    		<version>4.0.0.4422</version> <!-- Use the latest version -->
+	</plugin>
     </plugins>
   </build>
 </project>
